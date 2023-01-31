@@ -105,11 +105,11 @@ am__v_P_1 = :
 AM_V_GEN = $(am__v_GEN_$(V))
 am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))
 am__v_GEN_0 = @echo "  GEN     " $@;
-am__v_GEN_1 = 
+am__v_GEN_1 =
 AM_V_at = $(am__v_at_$(V))
 am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))
 am__v_at_0 = @
-am__v_at_1 = 
+am__v_at_1 =
 SOURCES =
 DIST_SOURCES =
 RECURSIVE_TARGETS = all-recursive check-recursive cscopelist-recursive \
@@ -210,25 +210,25 @@ CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2
 CPP = gcc -E
-CPPFLAGS = 
+CPPFLAGS =
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
-ECHO_C = 
+ECHO_C =
 ECHO_N = -n
-ECHO_T = 
+ECHO_T =
 EGREP = /bin/grep -E
-EXEEXT = 
+EXEEXT =
 GREP = /bin/grep
 INSTALL = /usr/bin/install -c
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
-LDFLAGS = 
-LIBOBJS = 
-LIBS = -lpng -lOSMesa -lGL 
-LTLIBOBJS = 
+LDFLAGS =
+LIBOBJS =
+LIBS = -lpng -lOSMesa -lGL
+LTLIBOBJS =
 MAKEINFO = ${SHELL} /home/mike/dev/labs/practice/labyrinth_offscreen/missing makeinfo
 MKDIR_P = /bin/mkdir -p
 OBJEXT = o
@@ -237,12 +237,12 @@ PACKAGE_BUGREPORT = BUG-REPORT-ADDRESS
 PACKAGE_NAME = maze_offscreen
 PACKAGE_STRING = maze_offscreen 0.8
 PACKAGE_TARNAME = maze_offscreen
-PACKAGE_URL = 
+PACKAGE_URL =
 PACKAGE_VERSION = 0.8
 PATH_SEPARATOR = :
-SET_MAKE = 
+SET_MAKE =
 SHELL = /bin/sh
-STRIP = 
+STRIP =
 VERSION = 0.8
 abs_builddir = /home/mike/dev/labs/practice/labyrinth_offscreen/build
 abs_srcdir = /home/mike/dev/labs/practice/labyrinth_offscreen/build/..
@@ -251,18 +251,18 @@ abs_top_srcdir = /home/mike/dev/labs/practice/labyrinth_offscreen/build/..
 ac_ct_CC = gcc
 am__include = include
 am__leading_dot = .
-am__quote = 
+am__quote =
 am__tar = $${TAR-tar} chof - "$$tardir"
 am__untar = $${TAR-tar} xf -
 bindir = ${exec_prefix}/bin
-build_alias = 
+build_alias =
 builddir = .
 datadir = ${datarootdir}
 datarootdir = ${prefix}/share
 docdir = ${datarootdir}/doc/${PACKAGE_TARNAME}
 dvidir = ${docdir}
 exec_prefix = ${prefix}
-host_alias = 
+host_alias =
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
@@ -282,8 +282,8 @@ sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
 srcdir = ..
 sysconfdir = ${prefix}/etc
-target_alias = 
-top_build_prefix = 
+target_alias =
+top_build_prefix =
 top_builddir = .
 top_srcdir = ..
 AUTOMAKE_OPTIONS = foreign
@@ -333,7 +333,7 @@ config.h: stamp-h1
 stamp-h1: $(srcdir)/config.h.in $(top_builddir)/config.status
 	@rm -f stamp-h1
 	cd $(top_builddir) && $(SHELL) ./config.status config.h
-$(srcdir)/config.h.in:  $(am__configure_deps) 
+$(srcdir)/config.h.in:  $(am__configure_deps)
 	($(am__cd) $(top_srcdir) && $(AUTOHEADER))
 	rm -f stamp-h1
 	touch $@
